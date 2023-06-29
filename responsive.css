@@ -1,0 +1,120 @@
+/* PC */
+@media (min-width: 64em) {
+    
+}
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em) {
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+    .place-buy-btn{
+        padding: 15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    .contact-submit-btn{
+        font-size: 18px;
+    }
+    
+    #footer .social{
+        font-size: 40px;
+    }
+    #footer .social a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    #content .member-item {
+        float: left;
+        padding: 0 50px;
+    }
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width:63.9375em) {
+    #content .member-img {
+        max-width: 174px;
+        height: 300px;
+        object-fit:cover;
+        margin-top: 15px;
+        border-radius: 4px;
+
+    }
+    .contact-info{
+        line-height: 2;
+    }
+}
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #nav{
+        display: block; 
+    }
+    #nav .subnav{
+        position:initial;
+        background-color: #ccc;
+    }
+    #nav .subnav a{
+        color:#000;
+        padding: 5px 41px;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #slider .text-content{
+        display: none;
+    }
+    #content .member-itemt{
+        margin-top: 30px;
+        width:100%;
+        float: left;
+        width: 360px;
+    }    
+    #content .member-img{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+    .place-item {
+        float: none;
+        width:auto;
+        padding: 0 8px;
+        margin-bottom: 16px;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+   
+}
